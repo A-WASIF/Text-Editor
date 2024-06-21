@@ -1,0 +1,86 @@
+.Area {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    /* color: #e2b714; */
+}
+
+.Area h1 {
+    color: #bdbdbd;
+}
+
+.Content {
+    font-size: 15px;
+    border: none;
+    padding: 10px;
+    color: #e2b714;
+    background-color: #2d3034;
+    resize: none;
+    /* overflow-y: hidden; */
+}
+
+.button {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px 0px;
+}
+
+.btn {
+    font-size: 18px;
+    background-color: rgb(24 110 242);
+    color: #d1d0c5;
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+    width: 100px;
+    background: transparent;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    cursor:pointer;
+    background-color: #575757;
+    color: #e2b714;
+}
+
+.wrapping {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 20px 0px; */
+}
+
+.wrapping h2 {
+    color: white;
+    margin: 0px 20px;
+}
+
+.WordLimitInput {
+    width: 50px;
+}
+
+.WordWrapBtn {
+    font-size: 18px;
+    background-color: rgb(24 110 242);
+    color: #d1d0c5;
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+    width: 60px;
+    background: transparent;
+    transition: background 0.3s;
+    margin: 0px 30px;
+}
+
+.WordWrapBtn:hover {
+    cursor:pointer;
+    background-color: #575757;
+    color: #e2b714;
+}
+
+.textDetails {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+

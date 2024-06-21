@@ -1,0 +1,12 @@
+.mainBody {
+    background-color: #323437;
+    height: 100vh;
+}
+
+.brd {
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #2c2e31;
+    height: 5px;
+}
